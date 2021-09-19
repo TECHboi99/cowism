@@ -142,7 +142,7 @@ a:hover {
 .bans-img {
     width: 100%;
     position: relative;
-    bottom: 15vh;
+    bottom: 5vh;
    
 }
 
@@ -191,8 +191,8 @@ a:hover {
     font-size: 30px;
     font-family: monospace;
     position: relative;
-    left: 1vh;
-    bottom: 30vh;
+    text-align: center;
+    bottom: 10vh;
 }
 
 .update-button {
@@ -278,6 +278,39 @@ a:hover {
     left: 49vh;
     background-color: #4c5;
     border-radius: 5px;
+}
+
+.unban-name {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    height: 6vh;
+    color: #4c5;
+    background-color: #2d2f31;
+    border: 2px solid #4c5;
+    font-size: 15px;
+}
+
+.unban-message {
+    width: 90%;
+    position: relative;
+    left: 5%;
+    height: 9vh;
+    color: #4c5;
+    background-color: #2d2f31;
+    border: 2px solid #4c5;
+    font-size: 15px;
+}
+
+.unban-submit {
+    width: 98%;
+    position: relative;
+    left: 5%;
+    height: 6vh;
+    color: #4c5;
+    background-color: #2d2f31;
+    border: 2px solid #4c5;
+    font-size: 15px;
 }
 
 
@@ -460,7 +493,7 @@ a:hover {
     }
     
     .update-container {
-        width: 60%;
+        width: 100%;
         position: relative;
         left: 20%;
         bottom: 50vh;
