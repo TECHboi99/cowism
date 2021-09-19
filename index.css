@@ -1,0 +1,652 @@
+body {
+    background-color: #26282b;
+    
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+
+header {
+
+    width: 100%;
+    height: 8%;
+    background-color: rgb(39, 37, 37);
+    box-shadow: 5px 5px black;
+    position: fixed;
+    top: 0px;
+    right: 1px;
+}
+
+header:hover {
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    animation: nav-bar-main 100ms;
+}
+
+
+
+.divider-line {
+    display: none;
+}
+
+
+
+li {
+
+    display: inline-block;
+    padding: 5px 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    position: relative;
+    right: 5vh;
+    text-underline-position: above;
+    
+}
+
+.logo {
+
+display: inline-block;
+width: 10%;
+height: 10%;
+margin-top: 0px;
+position: relative;
+top: 5px;
+left: 680px;
+
+}
+a {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-bottom: 0px yellow solid;
+    text-align: right;
+    position: relative;
+    bottom: 10px;
+    
+
+}
+
+a:hover {
+    color: rgb(230, 67, 39);
+    
+    
+    transition: 0.3s;
+    }
+
+.home-banner {
+    width: 100%;
+    height: 400px;
+
+    display: none;
+    
+}
+
+.wrapper {
+    width: 100%;
+
+}
+
+.home-title {
+    color: rgb(255, 255, 255);
+    font-family: monospace  ;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: black 5px 5px 5px 5px;
+    text-align: left;
+}
+
+.spacer {
+    color: rgb(38, 40, 41);
+}
+
+.home-content {
+    color: #6c757d;
+    font-family: sans-serif;
+    font-size: 15px;
+    position: relative;
+    bottom: 25px;
+}
+
+.join-button {
+    height: 7vh;
+    width: 50%;
+    margin: 5px;
+    background-color: #4c5;
+    color: rgb(17, 20, 18);
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: 1px #4c5 solid;
+    position: relative;
+    bottom: 2vh;
+    right: 0.5vh;
+    
+    transition: 0.2s;
+    
+
+    
+}
+
+
+.home-img {
+    width: 100%;
+    position: relative;
+    bottom: 15vh;
+    border-bottom: 3px #4c5 solid;
+}
+
+.bans-img {
+    width: 100%;
+    position: relative;
+    bottom: 15vh;
+   
+}
+
+.update-container {
+    width: 100%;
+    height: 34vh;
+    background-color: rgb(26, 25, 25);
+    border-radius: 10px;
+    
+    margin-top: 20px;
+}
+
+.update-title {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 10px;
+    font-size: 20px;
+    text-align: center;
+    top: 2vh;
+}
+
+.update-content {
+    font-family: sans-serif;
+    position: relative;
+    left: 10px;
+    margin-right: 15px;
+    color: rgb(143, 134, 134);
+    top: 3vh;
+    
+}
+
+.update-info {
+    font-family: sans-serif;
+    position: relative;
+    left: 10px;
+    margin-right: 15px;
+    color: rgb(182, 170, 170);
+    top: 3vh;
+    
+}
+
+
+.latest-updates {
+    color: white;
+    font-size: 30px;
+    font-family: monospace;
+    position: relative;
+    left: 1vh;
+    bottom: 30vh;
+}
+
+.update-button {
+    height: 6vh;
+    width: 50%;
+
+    background-color: #4c5;
+    color: rgb(23, 24, 21);
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 10px;
+    border: 5px rgb(26, 25, 25) solid;
+    
+    position: relative;
+    left: 25%;
+    top: 5vh;
+    
+    transition: 0.1s;
+}
+
+
+.navbar {
+    z-index: 999999;
+}
+
+.join-button:hover {
+    color: rgb(44, 43, 43);
+    background-color: rgb(49, 107, 37);
+
+}
+
+.home-img:hover {
+    box-shadow: 5px 5px black;
+    transition: 0.3;
+}
+
+.latest-updates:hover {
+    border-bottom: 2px white;
+}
+
+.update-button:hover {
+    
+    background-color: rgb(11, 78, 14);
+}
+
+.bottom-menu {
+    width: 110%;
+    height: 10vh;
+    background-color: rgb(29, 28, 28);
+    position: relative;
+    right: 3%;
+    top: 4vh;
+    box-shadow: #4c5 0px 0px 5px 5px;
+}
+
+.bottom-text {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    top: 3vh;
+    left: 1vh;
+}
+
+.bottom-name {
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: left;
+    position: relative;
+    top: 1vh;
+    left: 1vh;
+}
+
+.bottom-link {
+    color: rgb(32, 30, 30);
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: right;
+    position: relative;
+    bottom: 5vh;
+    left: 49vh;
+    background-color: #4c5;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 769px) {
+
+    header {
+
+        width: 100%;
+        height: 8%;
+        background-color: rgb(39, 37, 37);
+        box-shadow: 5px 5px black;
+        position: fixed;
+        top: 0px;
+        right: 1px;
+    }
+    
+    header:hover {
+        color: rgb(0, 0, 0);
+        transition: 1s;
+        animation: nav-bar-main 100ms;
+    }
+    
+    
+    
+    
+    
+    
+    
+    li {
+    
+        display: inline-block;
+        padding: 5px 15px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 20px;
+        margin: 0px;
+        top: 1vh;
+        left: 1vh;
+        text-underline-position: above;
+        
+    }
+    
+    .logo {
+    
+    display: inline-block;
+    width: 10%;
+    height: 10%;
+    margin-top: 0px;
+    position: relative;
+    top: 5px;
+    left: 680px;
+    
+    }
+    a {
+    
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        border-bottom: 0px yellow solid;
+        text-align: right;
+        position: relative;
+        bottom: 10px;
+        
+    
+    }
+    
+    a:hover {
+        color: rgb(230, 67, 39);
+        
+        
+        transition: 0.3s;
+        }
+    
+    .home-banner {
+        width: 100%;
+        height: 400px;
+    
+        display: none;
+        
+    }
+    
+    .wrapper {
+        width: 100%;
+    
+    }
+    
+    .home-title {
+        
+        color: rgb(255, 255, 255);
+        font-family: monospace  ;
+        font-size: 50px;
+        text-transform: uppercase;
+        text-shadow: black 5px 5px 5px 5px;
+        text-align: left;
+        position: relative;
+        top: 10vh;
+        left: 5vh;
+    }
+    
+    .spacer {
+        color: rgb(38, 40, 41);
+    }
+    
+    .home-content {
+        color: #6c757d;
+        font-family: sans-serif;
+        font-size: 25px;
+        position: relative;
+        bottom: 25px;
+        word-wrap: break-word;
+        padding: 0;
+        margin: 0.5;
+        position: relative;
+        top: 10vh;
+        left: 5vh;
+    }
+    
+    .join-button {
+        height: 7vh;
+        width: 25%;
+        margin: 5px;
+        background-color: #4c5;
+        color: rgb(17, 20, 18);
+        font-size: 20px;
+        font-family: sans-serif;
+        border-radius: 5px;
+        border: 1px #4c5 solid;
+        position: relative;
+        bottom: 2vh;
+        right: 0.5vh;
+        position: relative;
+        top: 10vh;
+        left: 5vh;
+        
+        transition: 0.2s;
+        
+    
+        
+    }
+
+    .divider-line {
+        color: rgb(167, 162, 162);
+        display: block;
+        text-align: center;
+        position: relative;
+        bottom: 60vh;
+    }
+
+    .divider-line-2 {
+        color: rgb(167, 162, 162);
+        display: block;
+        text-align: center;
+        position: relative;
+        bottom: 40vh;
+    }
+    
+    
+    .home-img {
+        width: 35%;
+        position: relative;
+        bottom: 65vh;
+        left: 60%;
+        border-bottom: 3px #4c5 solid;
+        transition: 0.2s;
+        margin-top: 2vh;
+    }
+
+    .bans-img {
+        width: 30%;
+        position: relative;
+        bottom: 45vh;
+        left: 60%;
+        
+        transition: 0.2s;
+        margin-top: 2vh;
+    }
+    
+    .update-container {
+        width: 60%;
+        position: relative;
+        left: 20%;
+        bottom: 50vh;
+        height:31vh;
+        background-color: rgb(26, 25, 25);
+        border-radius: 10px;
+        
+        margin-top: 20px;
+    }
+    
+    .update-title {
+        font-family: sans-serif;
+        color: rgb(255, 255, 255);
+        position: relative;
+        left: 10px;
+        font-size: 30px;
+        text-align: center;
+        top: 2vh;
+    }
+    
+    .update-content {
+        font-family: sans-serif;
+        position: relative;
+        font-size: 20px;
+        left: 10px;
+        margin-right: 15px;
+        color: rgb(143, 134, 134);
+        top: 3vh;
+        
+    }
+    
+    .update-info {
+        font-family: sans-serif;
+        position: relative;
+        font-size: 20px;
+        left: 10px;
+        margin-right: 15px;
+        color: rgb(199, 189, 189);
+        top: 3vh;
+        
+    }
+    
+    
+    .latest-updates {
+        color: white;
+        font-size: 50px;
+        font-family: monospace;
+        
+        text-align: center;
+        bottom: 40vh;
+    }
+
+    .latest-updates-2 {
+        color: white;
+        font-size: 50px;
+        font-family: monospace;
+        position: relative;
+        text-align: center;
+        bottom: 40vh;
+    }
+    
+    .update-button {
+        height: 8vh;
+        width: 50%;
+    
+        background-color: #4c5;
+        color: rgb(23, 24, 21);
+        font-size: 20px;
+        font-family: sans-serif;
+        border-radius: 10px;
+        border: 5px rgb(26, 25, 25) solid;
+        
+        position: relative;
+        left: 25%;
+        top: 5vh;
+        
+        transition: 0.1s;
+    }
+    
+    
+    .navbar {
+        z-index: 999999;
+    }
+    
+    .join-button:hover {
+        color: rgb(44, 43, 43);
+        background-color: rgb(49, 107, 37);
+    
+    }
+    
+    .home-img:hover {
+        box-shadow: 5px 5px black;
+        transition: 0.3;
+    }
+    
+    .latest-updates:hover {
+        border-bottom: 2px white;
+    }
+    
+    .update-button:hover {
+        
+        background-color: rgb(11, 78, 14);
+    }
+    
+    .bottom-menu {
+        width: 110%;
+        height: 10vh;
+        background-color: rgb(29, 28, 28);
+        position: relative;
+        right: 3%;
+        top: 4vh;
+        box-shadow: #4c5 0px 0px 5px 5px;
+    }
+    
+    .bottom-text {
+        color: white;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-align: left;
+        position: relative;
+        top: 3vh;
+        left: 7vh;
+    }
+
+    .bottom-name {
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+        text-align: left;
+        position: relative;
+        left: 40%;
+        bottom: 50%;
+        margin-bottom: 2.5vh;
+    }
+    
+    .bottom-link {
+        color: rgb(32, 30, 30);
+        height: 6vh;
+        width: 10vh;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-align: center;
+        position: relative;
+        bottom: 90%;
+        left: 88%;
+        background-color: #4c5;
+        border-radius: 5px;
+    }
+    
+}
+
+
+.undone {
+
+    color: #4c5;
+    font-family: sans-serif;
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+   
+   
+   }
+   
+   .undone2 {
+   
+       color: white;
+       font-family: serif;
+       font-size: 35px;
+       text-align: center;
+       position: relative;
+       top: 80px;
+   
+   }
+   
+   
+   .undone-link {
+   
+      color: white;
+      border-bottom: 5px #4c5;
+      margin: 0;
+      background: none;
+      transition: 0.3s;
+      position: relative;
+      top: 0vh;
+   
+   }
+   
+   
